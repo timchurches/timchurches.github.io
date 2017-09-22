@@ -1,7 +1,7 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
+date: 2017-09-22T13:28:14+10:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -16,7 +16,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 You can embed an R code chunk like this:
 
-```{r cars}
+```{r cars,render='asis'}
 summary(cars)
 fit <- lm(dist ~ speed, data = cars)
 fit
